@@ -1,0 +1,15 @@
+{
+  "name": "agent-voice",
+  "version": "1.0.0",
+  "private": true,
+  "description": "macOS-only MCP server: speak short agent summaries with the built-in say command.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "main": "agent-voice.js",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "setup": "node setup.js"
+  }
+}

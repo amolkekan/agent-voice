@@ -1,0 +1,8 @@
+node_modules/
+.env
+.env.*
+.DS_Store
+mcp.json
+*.log
+*.tgz
+.tmp-home-tests/
