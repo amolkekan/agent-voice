@@ -1,8 +1,10 @@
-# Agent Voice
+# Agent Voice (macOS only)
 
-An MCP server that speaks a **short summary** of an agent reply. Playback uses the **built-in macOS `say` command** (the same voices as System Settings). The full answer stays in the chat. No cloud, no API key. **macOS only.**
+An MCP server that speaks a **short summary** of an agent reply. Playback uses the **built-in macOS `say` command** (the same voices as System Settings). The full answer stays in the chat. No cloud, no API key.
 
-Works with any MCP-compatible host. The server is the same; only the config file path changes.
+**Requires macOS.** Windows and Linux are not supported. If you want a `speak` backend for those systems, open an issue.
+
+Works with any MCP-compatible host on a Mac. The server is the same; only the config file path changes.
 
 ## How this idea started
 

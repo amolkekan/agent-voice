@@ -2,7 +2,7 @@
   "name": "agent-voice",
   "version": "1.0.0",
   "private": true,
-  "description": "Agent Voice: MCP server that speaks short agent summaries with the built-in macOS voice.",
+  "description": "macOS-only MCP server: speak short agent summaries with the built-in say command.",
   "license": "MIT",
   "engines": {
     "node": ">=18"

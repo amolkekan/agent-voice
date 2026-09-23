@@ -184,6 +184,12 @@ function consume() {
   }
 }
 
+if (process.platform !== "darwin") {
+  process.stderr.write(
+    "Agent Voice requires macOS (the say command). Other systems are not supported.\n"
+  );
+}
+
 process.stdin.on("data", (chunk) => {
   buf = Buffer.concat([buf, Buffer.from(chunk)]);
   consume();
