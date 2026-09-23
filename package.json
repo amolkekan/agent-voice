@@ -1,0 +1,14 @@
+{
+  "name": "agent-voice",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Agent Voice: MCP server that speaks short agent summaries with the built-in macOS voice.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "main": "agent-voice.js",
+  "scripts": {
+    "test": "node --test test/protocol.test.js"
+  }
+}
