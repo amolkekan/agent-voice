@@ -145,6 +145,10 @@ This repo’s default ([`VOICE.md`](VOICE.md), also sent as MCP `instructions`) 
 - **Stay silent until `voice on`:** default. The server mutes `speak` until `set_voice`. Paste [`VOICE.md`](VOICE.md) only if the host ignores initialize `instructions`.
 - **Mute everywhere:** `set_voice` off, or disable the `agent-voice` MCP in the host.
 
+## Credits
+
+Design for MCP `initialize` instructions, `set_voice`, and one-command host setup came from [@paresh-patil-21](https://github.com/paresh-patil-21).
+
 ## License
 
 MIT. That lets anyone use, copy, and change this. A GitHub repo with **no** license is all rights reserved by default, so others could not legally use it even though the repo is public.
